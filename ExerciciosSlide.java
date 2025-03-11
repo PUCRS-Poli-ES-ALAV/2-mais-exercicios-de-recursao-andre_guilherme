@@ -182,7 +182,7 @@ public class ExerciciosSlide {
      * @return um ArrayList de todas as permutações da string
      */
     public ArrayList<String> ex11AllStringPermutationsDefinitionRec(String str) {
-        ArrayList<String> result = new ArrayList<String>();
+        ArrayList<String> result = new ArrayList<>();
         ex11AllStringPermutationsAux("", str, result);
         return result;
     }
